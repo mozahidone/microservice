@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AccountController {
 
-    @GetMapping("/hello")
+    @GetMapping("/account")
     public String hello() {
-        return "Hello World";
+        return "Hello from account micro service";
     }
 }
