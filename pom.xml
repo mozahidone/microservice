@@ -6,6 +6,9 @@
 	<groupId>com.mozahidone</groupId>
 	<artifactId>microservice</artifactId>
 	<version>0.0.1</version>
+	<modules>
+		<module>account-service</module>
+	</modules>
 
 	<packaging>pom</packaging>
 
