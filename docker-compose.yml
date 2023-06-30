@@ -1,0 +1,21 @@
+version: '3'
+services:
+  account-service:
+    build:
+      context: ./account-service
+      dockerfile: Dockerfile
+    ports:
+      - 8083:8083
+    networks:
+      - my-network
+  payment-service:
+    build:
+      context: ./payment-service
+      dockerfile: Dockerfile
+    ports:
+      - 8084:8084
+    networks:
+      - my-network
+
+networks:
+  my-network:
