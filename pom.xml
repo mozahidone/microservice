@@ -8,6 +8,7 @@
 	<version>0.0.1</version>
 	<modules>
 		<module>account-service</module>
+		<module>payment-service</module>
 	</modules>
 
 	<packaging>pom</packaging>
