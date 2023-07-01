@@ -2,8 +2,8 @@ version: '3'
 services:
   account-service:
     build:
-      context: ./account-service
-      dockerfile: Dockerfile
+      context: account-service
+      dockerfile: account-service/Dockerfile
     ports:
       - 8083:8083
     networks:
