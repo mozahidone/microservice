@@ -8,6 +8,7 @@
 	<version>0.0.1</version>
 	<modules>
 		<module>base</module>
+		<module>account-management</module>
 	</modules>
 
 	<packaging>pom</packaging>
