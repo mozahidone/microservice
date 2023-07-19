@@ -11,8 +11,6 @@
     <packaging>jar</packaging>
 
     <artifactId>account-service</artifactId>
-    <groupId>account-service</groupId>
-    <version>0.0.1</version>
 
     <dependencies>
         <dependency>

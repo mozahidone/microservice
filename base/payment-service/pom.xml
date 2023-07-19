@@ -11,8 +11,6 @@
     <packaging>jar</packaging>
 
     <artifactId>payment-service</artifactId>
-    <groupId>payment-service</groupId>
-    <version>0.0.1</version>
 
     <dependencies>
         <dependency>
