@@ -9,6 +9,7 @@
 	<modules>
 		<module>base</module>
 		<module>account-management</module>
+		<module>axon-framework</module>
 	</modules>
 
 	<packaging>pom</packaging>
