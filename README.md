@@ -151,6 +151,9 @@ To run this project, install it locally as follow:
    ```bash
    docker container logs CONTAINER_ID
    ```
+      ```bash
+   docker container logs -f CONTAINER_ID
+   ```
 
 ### Running
 
