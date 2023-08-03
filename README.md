@@ -154,7 +154,12 @@ To run this project, install it locally as follow:
       ```bash
    docker container logs -f CONTAINER_ID
    ```
-
+      ```bash
+   docker container logs CONTAINER_ID | grep "search_pattern"
+   ```
+         ```bash
+   docker container logs --since "2023-08-01T00:00:00" --until "2023-08-02T00:00:00" CONTAINER_ID
+   ```
 ### Running
 
 To access the services use the following endpoints
