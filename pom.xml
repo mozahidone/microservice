@@ -11,7 +11,8 @@
 		<module>account-management</module>
 		<module>axon-framework</module>
         <module>step-1</module>
-    </modules>
+		<module>api-gateway</module>
+	</modules>
 
 	<packaging>pom</packaging>
 
